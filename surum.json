@@ -1,0 +1,17 @@
+{
+  "_aciklama": "SLVNZ CODEX sürüm bilgisi. scripts/surum-yayinla.mjs üretir — elle düzenlemeyin.",
+  "urun": "SLVNZ CODEX",
+  "sonSurum": "5.1.0",
+  "enAzSurum": null,
+  "yayin": "2026-08-12",
+  "notlar": "",
+  "indir": {
+    "win": {
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v5.1.0/SLVNZ-CODEX-5.1.0-kurulum.exe",
+      "ad": "SLVNZ-CODEX-5.1.0-kurulum.exe",
+      "boyut": 78356579,
+      "sha256": "664d9519fb431e89e5c7a472f17a9964899436fb9e9376b2d33079c89594916f",
+      "sayfa": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/latest"
+    }
+  }
+}
