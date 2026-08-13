@@ -1,16 +1,16 @@
 {
   "_aciklama": "SLVNZ CODEX sürüm bilgisi. scripts/surum-yayinla.mjs üretir — elle düzenlemeyin.",
   "urun": "SLVNZ CODEX",
-  "sonSurum": "5.1.0",
+  "sonSurum": "5.2.0",
   "enAzSurum": null,
-  "yayin": "2026-08-12",
-  "notlar": "",
+  "yayin": "2026-08-13",
+  "notlar": "CODEX'ler yerel ve çevrimiçi diye ikiye ayrıldı; aralarında aktarım geldi. Giriş ekranı sitedeki üye diyaloğunun düzenine geçti.",
   "indir": {
     "win": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v5.1.0/SLVNZ-CODEX-5.1.0-kurulum.exe",
-      "ad": "SLVNZ-CODEX-5.1.0-kurulum.exe",
-      "boyut": 78356579,
-      "sha256": "664d9519fb431e89e5c7a472f17a9964899436fb9e9376b2d33079c89594916f",
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v5.2.0/SLVNZ-CODEX-5.2.0-kurulum.exe",
+      "ad": "SLVNZ-CODEX-5.2.0-kurulum.exe",
+      "boyut": 78866258,
+      "sha256": "94012f8c5d36cc8bf5022e16f75ecb922ed19262bba9b2d28f350fc6b24002e6",
       "sayfa": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/latest"
     }
   }
