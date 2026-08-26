@@ -1,17 +1,18 @@
 {
   "_aciklama": "SLVNZ CODEX sürüm bilgisi. scripts/surum-yayinla.mjs üretir — elle düzenlemeyin.",
   "urun": "SLVNZ CODEX",
-  "sonSurum": "0.0.1-test",
-  "enAzSurum": null,
-  "yayin": "2026-08-14",
-  "notlar": "TEST sürüm şemasına geçildi (sürümler 0.0.x'ten sayılıyor). Varlık penceresinin taşması ve koyu temadaki karartı giderildi; kart/levha/görsel indirmeleri JPEG'e döndü.",
+  "sonSurum": "0.0.3-test",
+  "enAzSurum": "0.0.3-test",
+  "yayin": "2026-08-26",
+  "notlar": "Hesaba bağlı lisans altyapısı (test döneminde kapalı) ve kaydedilmemiş veri uyarısı eklendi.",
   "indir": {
     "win": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.0.1-test/SLVNZ-CODEX-TEST-0.0.1-kurulum.exe",
-      "ad": "SLVNZ-CODEX-TEST-0.0.1-kurulum.exe",
-      "boyut": 78875831,
-      "sha256": "2015ebbc80ecd5757e94114d718984cf4bd3464d62ca92d32e6e375eb9cd2e34",
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.0.3-test/SLVNZ-CODEX-TEST-0.0.3-kurulum.exe",
+      "ad": "SLVNZ-CODEX-TEST-0.0.3-kurulum.exe",
+      "boyut": 94347389,
+      "sha256": "ad8b5f522ff715759ab6c3b981256152b7cb19630598a01837941bff912e6a55",
       "sayfa": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/latest"
     }
-  }
+  },
+  "imza": "c/4IGJx6wA45xre8c6F3xf+eJBudDktTn2O58sCZxTfIiEi2YJyL+hKhpOfAY5trEBVWzNoM2c9K9eaLbG4IBw=="
 }
