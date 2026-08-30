@@ -1,18 +1,18 @@
 {
   "_aciklama": "SLVNZ CODEX sürüm bilgisi. scripts/surum-yayinla.mjs üretir — elle düzenlemeyin.",
   "urun": "SLVNZ CODEX",
-  "sonSurum": "0.0.3-test",
+  "sonSurum": "0.0.4-test",
   "enAzSurum": "0.0.3-test",
-  "yayin": "2026-08-26",
-  "notlar": "Hesaba bağlı lisans altyapısı (test döneminde kapalı) ve kaydedilmemiş veri uyarısı eklendi.",
+  "yayin": "2026-08-30",
+  "notlar": "Bağ Haritası ve İlişki Ağı tek graf kanvasına taşındı ve köprülendi; karakter kağıdı kaynak formülleriyle yeniden yazıldı; çoklu ilişki ağı, ayarlanabilir toksiklik seviyeleri ve kutulu hafta editörü eklendi. YAYIN ANAHTARI DEĞİŞTİ: 0.0.3 ve öncesi bu sürüme elle kurulumla geçer.",
   "indir": {
     "win": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.0.3-test/SLVNZ-CODEX-TEST-0.0.3-kurulum.exe",
-      "ad": "SLVNZ-CODEX-TEST-0.0.3-kurulum.exe",
-      "boyut": 94347389,
-      "sha256": "ad8b5f522ff715759ab6c3b981256152b7cb19630598a01837941bff912e6a55",
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.0.4-test/SLVNZ-CODEX-TEST-0.0.4-kurulum.exe",
+      "ad": "SLVNZ-CODEX-TEST-0.0.4-kurulum.exe",
+      "boyut": 94405764,
+      "sha256": "be76a0c6203f2d42bfd051840d99e8219d56f5d99e23febca4fd617092749249",
       "sayfa": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/latest"
     }
   },
-  "imza": "c/4IGJx6wA45xre8c6F3xf+eJBudDktTn2O58sCZxTfIiEi2YJyL+hKhpOfAY5trEBVWzNoM2c9K9eaLbG4IBw=="
+  "imza": "xR00z2wH7R/lKyMfc9KKgrb8lw4N/+WI/WbFz3DUo1wXjq87ltyWF20Y/ryuKLi3NTYdxSlUX0F81cI/Xn00DA=="
 }
