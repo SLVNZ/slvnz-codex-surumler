@@ -1,18 +1,18 @@
 {
   "_aciklama": "SLVNZ CODEX sürüm bilgisi. scripts/surum-yayinla.mjs üretir — elle düzenlemeyin.",
   "urun": "SLVNZ CODEX",
-  "sonSurum": "0.0.4-test",
+  "sonSurum": "0.0.5-test",
   "enAzSurum": "0.0.3-test",
-  "yayin": "2026-08-30",
-  "notlar": "Bağ Haritası ve İlişki Ağı tek graf kanvasına taşındı ve köprülendi; karakter kağıdı kaynak formülleriyle yeniden yazıldı; çoklu ilişki ağı, ayarlanabilir toksiklik seviyeleri ve kutulu hafta editörü eklendi. YAYIN ANAHTARI DEĞİŞTİ: 0.0.3 ve öncesi bu sürüme elle kurulumla geçer.",
+  "yayin": "2026-09-25",
+  "notlar": "Cloud tester / Local tester üyelik türleri: Local tester çevrimiçi alanda kapsam mesajı görür; şeritte depolama belirteci (bulut: kullanılan/sınır + çubuk, yerel: CODEX boyutu). NEXUS v2 tasarım sistemi, oyun tezgâhı, karakter dosyası, yetenek görseli, yeni Savaş Haritası, İlişki Panosu.",
   "indir": {
     "win": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.0.4-test/SLVNZ-CODEX-TEST-0.0.4-kurulum.exe",
-      "ad": "SLVNZ-CODEX-TEST-0.0.4-kurulum.exe",
-      "boyut": 94405764,
-      "sha256": "be76a0c6203f2d42bfd051840d99e8219d56f5d99e23febca4fd617092749249",
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.0.5-test/SLVNZ-CODEX-TEST-0.0.5-kurulum.exe",
+      "ad": "SLVNZ-CODEX-TEST-0.0.5-kurulum.exe",
+      "boyut": 94480236,
+      "sha256": "1f0e3ce42b7923c5d85bce35db709a4e8271e332af517a468b397dd1a486fa6a",
       "sayfa": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/latest"
     }
   },
-  "imza": "xR00z2wH7R/lKyMfc9KKgrb8lw4N/+WI/WbFz3DUo1wXjq87ltyWF20Y/ryuKLi3NTYdxSlUX0F81cI/Xn00DA=="
+  "imza": "vWuphkspjy6Kb3dWhsXcVJKvD2PuvpXvoQhSYfw3h1veL0HAYCPer93Bauwjaq46ggxjyDYM2MmxXK5Fi9YyAQ=="
 }
