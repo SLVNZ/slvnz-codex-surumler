@@ -1,0 +1,24 @@
+{
+  "_aciklama": "SLVNZ SCRIBE sürüm bilgisi. scripts/surum-yayinla.mjs üretir — elle düzenlemeyin.",
+  "urun": "SLVNZ SCRIBE",
+  "sonSurum": "0.1.0-test",
+  "enAzSurum": null,
+  "yayin": "2026-10-06",
+  "notlar": "TEST-0.1.0: SCRIBE uygulama içinden güncellenir; NEXUS sahnesindeki mekân, kart ve görseller referans verilebilir.",
+  "indir": {
+    "win": {
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.0-test/SLVNZ-SCRIBE-TEST-0.1.0-kurulum.exe",
+      "ad": "SLVNZ-SCRIBE-TEST-0.1.0-kurulum.exe",
+      "boyut": 96437232,
+      "sha256": "ad2c9165c73e2a29d94d0094fc4fd456fe920873b949bad2be6e2e625eac3d27",
+      "sayfa": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/latest"
+    },
+    "tasinabilir": {
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.0-test/SLVNZ-SCRIBE-TEST-0.1.0-tasinabilir.exe",
+      "ad": "SLVNZ-SCRIBE-TEST-0.1.0-tasinabilir.exe",
+      "boyut": 96436950,
+      "sha256": "677fc92408de1f82ddc6cb2841bbc8ed75f2b0042b9e021ffcbf43c34f9d41fc"
+    }
+  },
+  "imza": "clZev8eHUf2ANmPuC0uD1pHPVFkVPfY1ZYshQ4LpbM1HJxGUBn9J+opLki4IfLXvJXXYP45+rvBtr9v5qcX3Aw=="
+}

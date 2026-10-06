@@ -1,18 +1,18 @@
 {
   "_aciklama": "SLVNZ CODEX sürüm bilgisi. scripts/surum-yayinla.mjs üretir — elle düzenlemeyin.",
   "urun": "SLVNZ CODEX",
-  "sonSurum": "0.0.5-test",
+  "sonSurum": "0.1.0-test",
   "enAzSurum": "0.0.3-test",
-  "yayin": "2026-09-25",
-  "notlar": "Cloud tester / Local tester üyelik türleri: Local tester çevrimiçi alanda kapsam mesajı görür; şeritte depolama belirteci (bulut: kullanılan/sınır + çubuk, yerel: CODEX boyutu). NEXUS v2 tasarım sistemi, oyun tezgâhı, karakter dosyası, yetenek görseli, yeni Savaş Haritası, İlişki Panosu.",
+  "yayin": "2026-10-06",
+  "notlar": "TEST-0.1.0: CODEX, NEXUS ve SCRIBE birlikte. Yetenek araması, sahne takibi, SCRIBE sahne referansları, çanta envanteri, büyülü ekipman bağı.",
   "indir": {
     "win": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.0.5-test/SLVNZ-CODEX-TEST-0.0.5-kurulum.exe",
-      "ad": "SLVNZ-CODEX-TEST-0.0.5-kurulum.exe",
-      "boyut": 94480236,
-      "sha256": "1f0e3ce42b7923c5d85bce35db709a4e8271e332af517a468b397dd1a486fa6a",
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.0-test/SLVNZ-CODEX-TEST-0.1.0-kurulum.exe",
+      "ad": "SLVNZ-CODEX-TEST-0.1.0-kurulum.exe",
+      "boyut": 110317197,
+      "sha256": "0b32d7f66362e178f8237ad2494ea8896d071b3d62d7697677638d3781627a96",
       "sayfa": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/latest"
     }
   },
-  "imza": "vWuphkspjy6Kb3dWhsXcVJKvD2PuvpXvoQhSYfw3h1veL0HAYCPer93Bauwjaq46ggxjyDYM2MmxXK5Fi9YyAQ=="
+  "imza": "JiokmvzxWcp4SjB8SFScYLzsnTMIfFn3xaWc0vnmdbGNVTNPzPLWlQq3Y0g9MBDcMA6K7DDWvjonCptT/+UQDw=="
 }
