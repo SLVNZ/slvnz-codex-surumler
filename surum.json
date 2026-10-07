@@ -1,18 +1,37 @@
 {
   "_aciklama": "SLVNZ CODEX sürüm bilgisi. scripts/surum-yayinla.mjs üretir — elle düzenlemeyin.",
   "urun": "SLVNZ CODEX",
-  "sonSurum": "0.1.0-test",
+  "sonSurum": "0.1.1-test",
   "enAzSurum": "0.0.3-test",
-  "yayin": "2026-10-06",
-  "notlar": "TEST-0.1.0: CODEX, NEXUS ve SCRIBE birlikte. Yetenek araması, sahne takibi, SCRIBE sahne referansları, çanta envanteri, büyülü ekipman bağı.",
+  "yayin": "2026-10-07",
+  "notlar": "TEST-0.1.1: CODEX, NEXUS ve SCRIBE birlikte. NEXUS'ta kişisel 3D zar, başka oyuncuya İlham teklifi, GM İlham güvencesi, karakter olarak zar, sohbet makro geçmişi ve masada Hareketi azalt; kritik zar gösterisi ve karakter kağıdı sürükleme düzeltmeleri.",
   "indir": {
     "win": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.0-test/SLVNZ-CODEX-TEST-0.1.0-kurulum.exe",
-      "ad": "SLVNZ-CODEX-TEST-0.1.0-kurulum.exe",
-      "boyut": 110317197,
-      "sha256": "0b32d7f66362e178f8237ad2494ea8896d071b3d62d7697677638d3781627a96",
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.1-test/SLVNZ-CODEX-TEST-0.1.1-kurulum.exe",
+      "ad": "SLVNZ-CODEX-TEST-0.1.1-kurulum.exe",
+      "boyut": 110317890,
+      "sha256": "208ca88674445722c5ee13091600fe2fda1118a121111b9582ebcfbbb1a46bbd",
       "sayfa": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/latest"
+    },
+    "tasinabilir": {
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.1-test/SLVNZ-CODEX-TEST-0.1.1-tasinabilir.exe",
+      "ad": "SLVNZ-CODEX-TEST-0.1.1-tasinabilir.exe",
+      "boyut": 110318646,
+      "sha256": "b45507cf3695998168f713e8e6722aba7ddf49aa09271eef3b2c74022805a735"
+    },
+    "nexus": {
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.1-test/SLVNZ-NEXUS-0.1.1-test-kurulum.exe",
+      "ad": "SLVNZ-NEXUS-0.1.1-test-kurulum.exe",
+      "boyut": 117526082,
+      "sha256": "42b1f85e34b3c95287c794b7e30b64ba7ffbfddbba772424bd6f15072fa469ff",
+      "surum": "0.1.1-test",
+      "tasinabilir": {
+        "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.1-test/SLVNZ-NEXUS-0.1.1-test-tasinabilir.exe",
+        "ad": "SLVNZ-NEXUS-0.1.1-test-tasinabilir.exe",
+        "boyut": 117528070,
+        "sha256": "dcfdfb2819251815e1ac3ecd469182bd96eda7301cb19a0d790db6e6bbc615f5"
+      }
     }
   },
-  "imza": "JiokmvzxWcp4SjB8SFScYLzsnTMIfFn3xaWc0vnmdbGNVTNPzPLWlQq3Y0g9MBDcMA6K7DDWvjonCptT/+UQDw=="
+  "imza": "G6IA3aqrfn2mBKuKc10ZZK7ym+ztrP1G3186XI0eHezPmeLHkwTsUxdB4zGDqXoI9gMhhjoF2n60muj3CHuHCA=="
 }

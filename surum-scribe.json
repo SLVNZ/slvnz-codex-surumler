@@ -1,24 +1,24 @@
 {
   "_aciklama": "SLVNZ SCRIBE sürüm bilgisi. scripts/surum-yayinla.mjs üretir — elle düzenlemeyin.",
   "urun": "SLVNZ SCRIBE",
-  "sonSurum": "0.1.0-test",
+  "sonSurum": "0.1.1-test",
   "enAzSurum": null,
-  "yayin": "2026-10-06",
-  "notlar": "TEST-0.1.0: SCRIBE uygulama içinden güncellenir; NEXUS sahnesindeki mekân, kart ve görseller referans verilebilir.",
+  "yayin": "2026-10-07",
+  "notlar": "TEST-0.1.1: SCRIBE güncelleme ekranı kendi adını gösterir; CODEX ve NEXUS ile aynı sürüm.",
   "indir": {
     "win": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.0-test/SLVNZ-SCRIBE-TEST-0.1.0-kurulum.exe",
-      "ad": "SLVNZ-SCRIBE-TEST-0.1.0-kurulum.exe",
-      "boyut": 96437232,
-      "sha256": "ad2c9165c73e2a29d94d0094fc4fd456fe920873b949bad2be6e2e625eac3d27",
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.1-test/SLVNZ-SCRIBE-TEST-0.1.1-kurulum.exe",
+      "ad": "SLVNZ-SCRIBE-TEST-0.1.1-kurulum.exe",
+      "boyut": 96437039,
+      "sha256": "5edba9cd1b0d272331c98323feeb13098c1b504f5c62c96472bf4a361e251b6d",
       "sayfa": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/latest"
     },
     "tasinabilir": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.0-test/SLVNZ-SCRIBE-TEST-0.1.0-tasinabilir.exe",
-      "ad": "SLVNZ-SCRIBE-TEST-0.1.0-tasinabilir.exe",
-      "boyut": 96436950,
-      "sha256": "677fc92408de1f82ddc6cb2841bbc8ed75f2b0042b9e021ffcbf43c34f9d41fc"
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.1-test/SLVNZ-SCRIBE-TEST-0.1.1-tasinabilir.exe",
+      "ad": "SLVNZ-SCRIBE-TEST-0.1.1-tasinabilir.exe",
+      "boyut": 96436742,
+      "sha256": "b8557645c06b04f17f006cedbae1e665754dd807345a7faaef53addc3456ffc4"
     }
   },
-  "imza": "clZev8eHUf2ANmPuC0uD1pHPVFkVPfY1ZYshQ4LpbM1HJxGUBn9J+opLki4IfLXvJXXYP45+rvBtr9v5qcX3Aw=="
+  "imza": "DbDSPMN+SaH0Y2zaMB7Ki0Mg8pLIruKq79lltPcNaop+gijoCjl04xy916MXsTIrQK5C+QDPGSwsbY/jRjbqBg=="
 }
