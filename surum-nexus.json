@@ -1,0 +1,24 @@
+{
+  "_aciklama": "SLVNZ NEXUS sürüm bilgisi. scripts/surum-yayinla.mjs üretir — elle düzenlemeyin.",
+  "urun": "SLVNZ NEXUS",
+  "sonSurum": "0.1.1-test",
+  "enAzSurum": null,
+  "yayin": "2026-10-07",
+  "notlar": "TEST-0.1.1: NEXUS artık kendini uygulama içinden günceller. Kişisel 3D zar, başka oyuncuya İlham teklifi, GM İlham güvencesi, karakter olarak zar, sohbet makro geçmişi, masada Hareketi azalt; kritik zar ve karakter kağıdı sürükleme düzeltmeleri.",
+  "indir": {
+    "win": {
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.1-test/SLVNZ-NEXUS-0.1.1-test-kurulum.exe",
+      "ad": "SLVNZ-NEXUS-0.1.1-test-kurulum.exe",
+      "boyut": 117539478,
+      "sha256": "470fae4b0f3cbcbf47637f56d45ac054e690fc0c914cd5ea93c597fcb212b45a",
+      "sayfa": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/latest"
+    },
+    "tasinabilir": {
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.1-test/SLVNZ-NEXUS-0.1.1-test-tasinabilir.exe",
+      "ad": "SLVNZ-NEXUS-0.1.1-test-tasinabilir.exe",
+      "boyut": 117539016,
+      "sha256": "b88994cff8a41e9822b1e648c8b27bff74f118a2f006fccf08a9ecd0e3cb00a4"
+    }
+  },
+  "imza": "q7RE9HU7pIZBM/Y8anGZoE73OoVf6ELezJ1ljA4pKq1Ccl95mc0Hlnvcb4eQ8VBox3m6KFo/1Y2QY1WLkCSRAg=="
+}
