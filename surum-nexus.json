@@ -1,24 +1,24 @@
 {
   "_aciklama": "SLVNZ NEXUS sürüm bilgisi. scripts/surum-yayinla.mjs üretir — elle düzenlemeyin.",
   "urun": "SLVNZ NEXUS",
-  "sonSurum": "0.1.1-test",
+  "sonSurum": "0.1.2-test",
   "enAzSurum": null,
-  "yayin": "2026-10-07",
-  "notlar": "TEST-0.1.1: NEXUS artık kendini uygulama içinden günceller. Kişisel 3D zar, başka oyuncuya İlham teklifi, GM İlham güvencesi, karakter olarak zar, sohbet makro geçmişi, masada Hareketi azalt; kritik zar ve karakter kağıdı sürükleme düzeltmeleri.",
+  "yayin": "2026-10-10",
+  "notlar": "TEST-0.1.2: Her board sahnesinin kendi sahne panosu; panoda sağ tuşla kaydırma ve GM için çoklu seçim. Masaya ek kampanya bağlama. Ortak NEURAL kurucu arayüzü ve SLVNZ açılış görseli.",
   "indir": {
     "win": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.1-test/SLVNZ-NEXUS-0.1.1-test-kurulum.exe",
-      "ad": "SLVNZ-NEXUS-0.1.1-test-kurulum.exe",
-      "boyut": 117539478,
-      "sha256": "470fae4b0f3cbcbf47637f56d45ac054e690fc0c914cd5ea93c597fcb212b45a",
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.2-test/SLVNZ-NEXUS-0.1.2-test-kurulum.exe",
+      "ad": "SLVNZ-NEXUS-0.1.2-test-kurulum.exe",
+      "boyut": 117347668,
+      "sha256": "c9ebdb962b727f2137b555d5a05eaa7ec50d517c25243fdfe73b3ca5ef172ab8",
       "sayfa": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/latest"
     },
     "tasinabilir": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.1-test/SLVNZ-NEXUS-0.1.1-test-tasinabilir.exe",
-      "ad": "SLVNZ-NEXUS-0.1.1-test-tasinabilir.exe",
-      "boyut": 117539016,
-      "sha256": "b88994cff8a41e9822b1e648c8b27bff74f118a2f006fccf08a9ecd0e3cb00a4"
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.2-test/SLVNZ-NEXUS-0.1.2-test-tasinabilir.exe",
+      "ad": "SLVNZ-NEXUS-0.1.2-test-tasinabilir.exe",
+      "boyut": 117349741,
+      "sha256": "aa933411d95a899681494abbf2363be99ac781b4b009c1826f69ba243d62847e"
     }
   },
-  "imza": "q7RE9HU7pIZBM/Y8anGZoE73OoVf6ELezJ1ljA4pKq1Ccl95mc0Hlnvcb4eQ8VBox3m6KFo/1Y2QY1WLkCSRAg=="
+  "imza": "wk9Y1cwMLvqUQ4fMsFE1j68ay8FBmUrP+wuSIZcYyoeOFyeQWQTntGf5nR18ZhTqbJXxb/M525RrPbEKC1sxCQ=="
 }

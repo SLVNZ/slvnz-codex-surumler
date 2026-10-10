@@ -1,24 +1,24 @@
 {
   "_aciklama": "SLVNZ SCRIBE sürüm bilgisi. scripts/surum-yayinla.mjs üretir — elle düzenlemeyin.",
   "urun": "SLVNZ SCRIBE",
-  "sonSurum": "0.1.1-test",
+  "sonSurum": "0.1.2-test",
   "enAzSurum": null,
-  "yayin": "2026-10-07",
-  "notlar": "TEST-0.1.1: SCRIBE güncelleme ekranı kendi adını gösterir; CODEX ve NEXUS ile aynı sürüm.",
+  "yayin": "2026-10-10",
+  "notlar": "TEST-0.1.2: SCRIBE kurucusu ortak NEURAL arayüzde (SCRIBE turuncusuyla) ve SLVNZ açılış görseliyle gelir; CODEX ve NEXUS ile aynı sürüm.",
   "indir": {
     "win": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.1-test/SLVNZ-SCRIBE-TEST-0.1.1-kurulum.exe",
-      "ad": "SLVNZ-SCRIBE-TEST-0.1.1-kurulum.exe",
-      "boyut": 96437039,
-      "sha256": "5edba9cd1b0d272331c98323feeb13098c1b504f5c62c96472bf4a361e251b6d",
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.2-test/SLVNZ-SCRIBE-TEST-0.1.2-kurulum.exe",
+      "ad": "SLVNZ-SCRIBE-TEST-0.1.2-kurulum.exe",
+      "boyut": 96047212,
+      "sha256": "fded87f3c6205d31432d07670fa5a10d20531738459adc00fb9e910f0d77a1e3",
       "sayfa": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/latest"
     },
     "tasinabilir": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.1-test/SLVNZ-SCRIBE-TEST-0.1.1-tasinabilir.exe",
-      "ad": "SLVNZ-SCRIBE-TEST-0.1.1-tasinabilir.exe",
-      "boyut": 96436742,
-      "sha256": "b8557645c06b04f17f006cedbae1e665754dd807345a7faaef53addc3456ffc4"
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.2-test/SLVNZ-SCRIBE-TEST-0.1.2-tasinabilir.exe",
+      "ad": "SLVNZ-SCRIBE-TEST-0.1.2-tasinabilir.exe",
+      "boyut": 96046667,
+      "sha256": "246f055ae91e5bb074605387662da7492b758a4448601af851146fd98e772b60"
     }
   },
-  "imza": "DbDSPMN+SaH0Y2zaMB7Ki0Mg8pLIruKq79lltPcNaop+gijoCjl04xy916MXsTIrQK5C+QDPGSwsbY/jRjbqBg=="
+  "imza": "wjrZJUXOSqZZid+Tf0fGE9hGGNK/lolkrWILmfar2+xRM14WsYpeKmRUpgFTWpZAmujVgugEn3KsQtxBb7tNAg=="
 }
