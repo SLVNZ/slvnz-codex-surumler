@@ -1,24 +1,24 @@
 {
   "_aciklama": "SLVNZ NEXUS sürüm bilgisi. scripts/surum-yayinla.mjs üretir — elle düzenlemeyin.",
   "urun": "SLVNZ NEXUS",
-  "sonSurum": "0.1.2-test",
+  "sonSurum": "0.1.3-test",
   "enAzSurum": null,
-  "yayin": "2026-10-10",
-  "notlar": "TEST-0.1.2: Her board sahnesinin kendi sahne panosu; panoda sağ tuşla kaydırma ve GM için çoklu seçim. Masaya ek kampanya bağlama. Ortak NEURAL kurucu arayüzü ve SLVNZ açılış görseli.",
+  "yayin": "2026-10-12",
+  "notlar": "TEST-0.1.3: Hazırlık kipi — GM masayı oyunculara açmadan, yalnız kendi bilgisayarında açıp her şeyi düzenler; hazır olunca Bağlantıyı aç. Savaş haritası GM aracı, kart görünüşleri ve galeri, gerçekçi 3D zar fiziği, istenen yüzlü zar, lobide oturum günlüğü.",
   "indir": {
     "win": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.2-test/SLVNZ-NEXUS-0.1.2-test-kurulum.exe",
-      "ad": "SLVNZ-NEXUS-0.1.2-test-kurulum.exe",
-      "boyut": 117347668,
-      "sha256": "c9ebdb962b727f2137b555d5a05eaa7ec50d517c25243fdfe73b3ca5ef172ab8",
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.3-test/SLVNZ-NEXUS-0.1.3-test-kurulum.exe",
+      "ad": "SLVNZ-NEXUS-0.1.3-test-kurulum.exe",
+      "boyut": 117567957,
+      "sha256": "3bd110a915954ea98901f6532634f646a59c119bc1c3fcad16aef47d653f8b1a",
       "sayfa": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/latest"
     },
     "tasinabilir": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.2-test/SLVNZ-NEXUS-0.1.2-test-tasinabilir.exe",
-      "ad": "SLVNZ-NEXUS-0.1.2-test-tasinabilir.exe",
-      "boyut": 117349741,
-      "sha256": "aa933411d95a899681494abbf2363be99ac781b4b009c1826f69ba243d62847e"
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.3-test/SLVNZ-NEXUS-0.1.3-test-tasinabilir.exe",
+      "ad": "SLVNZ-NEXUS-0.1.3-test-tasinabilir.exe",
+      "boyut": 117569976,
+      "sha256": "48aa5ecc1664cd9a0329b2f17ae961b5bb98bffcd9d95cca7edb8ad71ecf5825"
     }
   },
-  "imza": "wk9Y1cwMLvqUQ4fMsFE1j68ay8FBmUrP+wuSIZcYyoeOFyeQWQTntGf5nR18ZhTqbJXxb/M525RrPbEKC1sxCQ=="
+  "imza": "lLWtVUJ833vOJuYxHXdZZG8o+kz18TUPNw/Gry99HDwHr8GXMAMlm7ObdeENIpuklgAQOLth1JESyouapQG+Dw=="
 }

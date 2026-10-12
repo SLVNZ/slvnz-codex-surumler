@@ -1,24 +1,24 @@
 {
   "_aciklama": "SLVNZ SCRIBE sürüm bilgisi. scripts/surum-yayinla.mjs üretir — elle düzenlemeyin.",
   "urun": "SLVNZ SCRIBE",
-  "sonSurum": "0.1.2-test",
+  "sonSurum": "0.1.3-test",
   "enAzSurum": null,
-  "yayin": "2026-10-10",
-  "notlar": "TEST-0.1.2: SCRIBE kurucusu ortak NEURAL arayüzde (SCRIBE turuncusuyla) ve SLVNZ açılış görseliyle gelir; CODEX ve NEXUS ile aynı sürüm.",
+  "yayin": "2026-10-12",
+  "notlar": "TEST-0.1.3: Masaüstü parolalı giriş/kayıt ekranları kalktı, hesap işleri sitede; giriş kodu tıklayınca kopyalanır. CODEX ve NEXUS ile aynı sürüm.",
   "indir": {
     "win": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.2-test/SLVNZ-SCRIBE-TEST-0.1.2-kurulum.exe",
-      "ad": "SLVNZ-SCRIBE-TEST-0.1.2-kurulum.exe",
-      "boyut": 96047212,
-      "sha256": "fded87f3c6205d31432d07670fa5a10d20531738459adc00fb9e910f0d77a1e3",
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.3-test/SLVNZ-SCRIBE-TEST-0.1.3-kurulum.exe",
+      "ad": "SLVNZ-SCRIBE-TEST-0.1.3-kurulum.exe",
+      "boyut": 95822737,
+      "sha256": "9c8167eaadd6b40a1fa911f7264825ed3272bf851ee81a6616c417c05f648294",
       "sayfa": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/latest"
     },
     "tasinabilir": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.2-test/SLVNZ-SCRIBE-TEST-0.1.2-tasinabilir.exe",
-      "ad": "SLVNZ-SCRIBE-TEST-0.1.2-tasinabilir.exe",
-      "boyut": 96046667,
-      "sha256": "246f055ae91e5bb074605387662da7492b758a4448601af851146fd98e772b60"
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.3-test/SLVNZ-SCRIBE-TEST-0.1.3-tasinabilir.exe",
+      "ad": "SLVNZ-SCRIBE-TEST-0.1.3-tasinabilir.exe",
+      "boyut": 95821238,
+      "sha256": "a8e337e72dd08e06918b87b06084db751d8f8f45d38ddf56d0c47e5122900093"
     }
   },
-  "imza": "wjrZJUXOSqZZid+Tf0fGE9hGGNK/lolkrWILmfar2+xRM14WsYpeKmRUpgFTWpZAmujVgugEn3KsQtxBb7tNAg=="
+  "imza": "cAArIuOplCXjxndxsWjE2RacPAdbQzT40ytKaQa/5merPDoCA5BoIHmFi0LtwxBhuxvKv23kM+obnoQ18/z1Dg=="
 }
