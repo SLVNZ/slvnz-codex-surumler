@@ -1,37 +1,857 @@
 {
   "_aciklama": "SLVNZ CODEX sürüm bilgisi. scripts/surum-yayinla.mjs üretir — elle düzenlemeyin.",
   "urun": "SLVNZ CODEX",
-  "sonSurum": "0.1.3-test",
+  "sonSurum": "0.1.4-test",
   "enAzSurum": "0.0.3-test",
-  "yayin": "2026-10-12",
-  "notlar": "TEST-0.1.3: CODEX, NEXUS ve SCRIBE birlikte. NEXUS'ta hazırlık kipi (GM masayı oyunculara açmadan düzenler), savaş haritası NEXUS'ta GM aracı, kart görünüşleri, gerçekçi 3D zar fiziği. Masaüstü parola ekranları kalktı (hesap işleri sitede), giriş kodu tıkla-kopyala.",
+  "yayin": "2026-10-17",
+  "notlar": "TEST-0.1.4: Üst çubukta sürüm ve yama notları; animasyonlar Windows ayarından bağımsız; DM ekranında yazarken kısayol düzeltmesi. NEXUS'ta Notlarım, üç ses katmanı (YouTube dahil), Spotify'da çalan, zorunlu güncelleme ve sürüm kapısı.",
+  "yamaNotlari": [
+    {
+      "surum": "0.1.4-test",
+      "gorunen": "TEST-0.1.4",
+      "tarih": "18.10.2026",
+      "giris": [
+        [
+          {
+            "t": "d",
+            "s": "TEST-0.1.3'ten (12.10.2026) bu yana. Üç uygulama yine birlikte TEST-0.1.4. Bu sürümden itibaren her güncellemeden sonra ilk açılışta neyin değiştiğini anlatan bu pencere çıkar; üst çubuğun solundaki sürüm numarasına tıklayarak ona istediğin zaman dönebilirsin. "
+          },
+          {
+            "t": "k",
+            "s": "NEXUS güncellemesi zorunludur:"
+          },
+          {
+            "t": "d",
+            "s": " farklı sürümdeki NEXUS'la aynı masaya oturulmaz; GM de güncellemelidir."
+          }
+        ]
+      ],
+      "bolumler": [
+        {
+          "baslik": "Üç uygulama — sürüm ve yama notları",
+          "ikon": "◈",
+          "kapsam": [],
+          "paragraflar": [],
+          "maddeler": [
+            {
+              "parcalar": [
+                {
+                  "t": "k",
+                  "s": "Sürüm numarası üst çubukta."
+                },
+                {
+                  "t": "d",
+                  "s": " CODEX, SCRIBE ve NEXUS'ta pencerenin üst"
+                },
+                {
+                  "t": "d",
+                  "s": " çubuğunun solunda kurulu sürüm yazar. Tıklayınca bu yama notları açılır;"
+                },
+                {
+                  "t": "d",
+                  "s": " önceki sürümlerin notları da altta, açılır başlıklar hâlinde durur."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "k",
+                  "s": "Güncelleme penceresinde neler geldiği."
+                },
+                {
+                  "t": "d",
+                  "s": " Yeni sürüm bulunduğunda çıkan"
+                },
+                {
+                  "t": "d",
+                  "s": " güncelleme penceresi artık kısa bir özet de gösterir: hangi bölümde neyin"
+                },
+                {
+                  "t": "d",
+                  "s": " değiştiği, maddeler hâlinde. Ayrıntılı anlatım güncellemeden sonraki ilk"
+                },
+                {
+                  "t": "d",
+                  "s": " açılışta gelir."
+                }
+              ],
+              "alt": []
+            }
+          ]
+        },
+        {
+          "baslik": "Üç uygulama — hareket",
+          "ikon": "◈",
+          "kapsam": [],
+          "paragraflar": [],
+          "maddeler": [
+            {
+              "parcalar": [
+                {
+                  "t": "k",
+                  "s": "Animasyonlar Windows ayarından bağımsız."
+                },
+                {
+                  "t": "d",
+                  "s": " Windows'ta \"Animasyon"
+                },
+                {
+                  "t": "d",
+                  "s": " efektleri\" kapalı olsa da Neuro arka planı, kağıt shader'ları, 3D zar ve"
+                },
+                {
+                  "t": "d",
+                  "s": " geçişler çalışır. Hareketi yalnız uygulamadaki \"Hareketi azalt\" anahtarı"
+                },
+                {
+                  "t": "d",
+                  "s": " durdurur; anahtar artık sistem ayarı yüzünden kilitlenmez."
+                }
+              ],
+              "alt": []
+            }
+          ]
+        },
+        {
+          "baslik": "CODEX · SCRIBE — yazarken kısayol",
+          "ikon": "⚔",
+          "kapsam": [
+            "codex",
+            "scribe"
+          ],
+          "paragraflar": [],
+          "maddeler": [
+            {
+              "parcalar": [
+                {
+                  "t": "k",
+                  "s": "DM ekranında \"s\" ve \"i\" harfleri yazılabiliyor."
+                },
+                {
+                  "t": "d",
+                  "s": " Oturum ekranında bir"
+                },
+                {
+                  "t": "d",
+                  "s": " metin kutusuna yazarken S harfi sahne, İ harfi ipucu penceresini açıyor,"
+                },
+                {
+                  "t": "d",
+                  "s": " harf kutuya düşmüyordu. Kısayollar artık yalnız hiçbir kutuya yazmıyorken"
+                },
+                {
+                  "t": "d",
+                  "s": " ve o panel öndeyken çalışır."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "k",
+                  "s": "Kart galerisi ok tuşlarını yutmuyor."
+                },
+                {
+                  "t": "d",
+                  "s": " Arka planda açık kalmış galeri,"
+                },
+                {
+                  "t": "d",
+                  "s": " başka bir paneldeki yazıda sol/sağ okları yakalıyordu."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "k",
+                  "s": "Esc yazarken dosyayı kapatmıyor."
+                },
+                {
+                  "t": "d",
+                  "s": " DM ve NPC dosyasında bir kutuya"
+                },
+                {
+                  "t": "d",
+                  "s": " yazarken Esc önce yazıdan çıkar; dosya ancak ikinci Esc'te kapanır."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "k",
+                  "s": "Atlas'ta boşluk tuşu."
+                },
+                {
+                  "t": "d",
+                  "s": " Bir yazı alanına boşluk yazmak artık haritayı"
+                },
+                {
+                  "t": "d",
+                  "s": " kaydırma kipine sokmaz."
+                }
+              ],
+              "alt": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "surum": "0.1.3-test",
+      "gorunen": "TEST-0.1.3",
+      "tarih": "12.10.2026",
+      "giris": [
+        [
+          {
+            "t": "d",
+            "s": "TEST-0.1.2'den (10.10.2026) bu yana. Üç uygulama yine birlikte "
+          },
+          {
+            "t": "c",
+            "s": "TEST-0.1.3"
+          },
+          {
+            "t": "d",
+            "s": "; CODEX, NEXUS ve SCRIBE 0.1.2 kurulumları uygulama içinden geçer."
+          }
+        ]
+      ],
+      "bolumler": [
+        {
+          "baslik": "CODEX · SCRIBE",
+          "ikon": "⚔",
+          "kapsam": [
+            "codex",
+            "scribe"
+          ],
+          "paragraflar": [],
+          "maddeler": [
+            {
+              "parcalar": [
+                {
+                  "t": "d",
+                  "s": "Masaüstü parolalı giriş, kayıt ve parola değiştirme ekranları kalktı;"
+                },
+                {
+                  "t": "d",
+                  "s": " hesap işleri sitede (\"Hesabımı sitede aç\")."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "d",
+                  "s": "Giriş kodu tıklayınca panoya kopyalanır (NEXUS'ta da)."
+                }
+              ],
+              "alt": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "surum": "0.1.2-test",
+      "gorunen": "TEST-0.1.2",
+      "tarih": "10.10.2026",
+      "giris": [
+        [
+          {
+            "t": "d",
+            "s": "TEST-0.1.1'den (07.10.2026) bu yana. Üç uygulama yine birlikte "
+          },
+          {
+            "t": "c",
+            "s": "TEST-0.1.2"
+          },
+          {
+            "t": "d",
+            "s": ". CODEX, NEXUS ve SCRIBE 0.1.1 kurulumları uygulama içinden geçer (NEXUS'un güncelleyicisi 0.1.1'de geldi; bu, onu gerçekte ilk kez kullanan sürümdür)."
+          }
+        ]
+      ],
+      "bolumler": [
+        {
+          "baslik": "Kurulum (üç uygulama)",
+          "ikon": "⬇",
+          "kapsam": [],
+          "paragraflar": [],
+          "maddeler": [
+            {
+              "parcalar": [
+                {
+                  "t": "k",
+                  "s": "Tek kurucu arayüzü:"
+                },
+                {
+                  "t": "d",
+                  "s": " CODEX, NEXUS ve SCRIBE kurucuları aynı"
+                },
+                {
+                  "t": "d",
+                  "s": " NEURAL (NEXUS v2) dilinde. Solda canlı Neuro zemin üstünde marka"
+                },
+                {
+                  "t": "d",
+                  "s": " sütunu, sağda cam levha; Kurulum/Yükseltme → Kuruluyor → Hazır/Olmadı"
+                },
+                {
+                  "t": "d",
+                  "s": " ve Kaldır aynı levhada."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "k",
+                  "s": "Açılış görseli:"
+                },
+                {
+                  "t": "d",
+                  "s": " kurucu açılırken buzlu cam önünde yalnız SLVNZ"
+                },
+                {
+                  "t": "d",
+                  "s": " logosu görünür (NEXUS'ta ilk kez). Her uygulama kendi rengini taşır:"
+                },
+                {
+                  "t": "d",
+                  "s": " CODEX kırmızı, NEXUS mavi, SCRIBE turuncu."
+                }
+              ],
+              "alt": []
+            }
+          ]
+        },
+        {
+          "baslik": "CODEX",
+          "ikon": "⚔",
+          "kapsam": [
+            "codex"
+          ],
+          "paragraflar": [],
+          "maddeler": [
+            {
+              "parcalar": [
+                {
+                  "t": "k",
+                  "s": "Kayıt karolarında sağ tık menüsü:"
+                },
+                {
+                  "t": "d",
+                  "s": " Kartlar, Eşyalar, Yadigârlar ve"
+                },
+                {
+                  "t": "d",
+                  "s": " Hikayeler karolarında düzenleme işlevleri tek menüde."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "k",
+                  "s": "Başka kampanyaya kopyala / taşı:"
+                },
+                {
+                  "t": "d",
+                  "s": " aynı kampanyada \"Kopyasını"
+                },
+                {
+                  "t": "d",
+                  "s": " oluştur\"; başka kampanyaya kopyalama ya da taşıma. Hedef doğrulanmadan"
+                },
+                {
+                  "t": "d",
+                  "s": " kaynak silinmez; görseller, klasör düzeni ve kart bağları birlikte gider."
+                }
+              ],
+              "alt": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "surum": "0.1.1-test",
+      "gorunen": "TEST-0.1.1",
+      "tarih": "07.10.2026",
+      "giris": [
+        [
+          {
+            "t": "d",
+            "s": "TEST-0.1.0'dan (06.10.2026) bu yana. İlk test oyununun notlarıyla gelen düzeltmeler; üç uygulama yine birlikte "
+          },
+          {
+            "t": "c",
+            "s": "TEST-0.1.1"
+          },
+          {
+            "t": "d",
+            "s": ". CODEX ve SCRIBE 0.1.0 kurulumları uygulama içinden geçer. "
+          },
+          {
+            "t": "k",
+            "s": "NEXUS artık kendini uygulama içinden günceller"
+          },
+          {
+            "t": "d",
+            "s": "; bunu taşıyan ilk sürüm olduğu için TEST-0.1.1 bir kez siteden elle kurulur, sonrakiler kendiliğinden gelir."
+          }
+        ]
+      ],
+      "bolumler": []
+    },
+    {
+      "surum": "0.1.0-test",
+      "gorunen": "TEST-0.1.0",
+      "tarih": "06.10.2026",
+      "giris": [
+        [
+          {
+            "t": "d",
+            "s": "TEST-0.0.5'ten (25.09.2026) bu yana. Üç uygulama ilk kez "
+          },
+          {
+            "t": "k",
+            "s": "aynı sürümle"
+          },
+          {
+            "t": "d",
+            "s": " çıkıyor: SLVNZ CODEX, SLVNZ NEXUS ve SLVNZ SCRIBE "
+          },
+          {
+            "t": "c",
+            "s": "TEST-0.1.0"
+          },
+          {
+            "t": "d",
+            "s": ". CODEX 0.0.5 kurulumları bu sürüme uygulama içinden geçer."
+          }
+        ]
+      ],
+      "bolumler": [
+        {
+          "baslik": "Yetenekler",
+          "ikon": "⚔",
+          "kapsam": [],
+          "paragraflar": [],
+          "maddeler": [
+            {
+              "parcalar": [
+                {
+                  "t": "d",
+                  "s": "CODEX ile NEXUS yetenekleri tek sözlükten okur; tür, eylem, birim ve"
+                },
+                {
+                  "t": "d",
+                  "s": " zar kuralı iki tarafta aynı."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "d",
+                  "s": "Yetenek süzgeci (eylem, temel, alt tür, seviye, kaynak, enerji) CODEX"
+                },
+                {
+                  "t": "d",
+                  "s": " Yetenekler'de, NEXUS GM panelinde ve karakter kağıdında aynı."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "d",
+                  "s": "Karakter kağıdında Enerjisel · Fiziksel · Karma sekmeleri, altında"
+                },
+                {
+                  "t": "d",
+                  "s": " Eylem · Ek Eylem · Tepki Eylem alt sekmeleri ve "
+                },
+                {
+                  "t": "k",
+                  "s": "isimle arama"
+                },
+                {
+                  "t": "d",
+                  "s": " (Türkçe harf farkı gözetmez; sonuç başka sekmedeyse oraya geçer)."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "d",
+                  "s": "\"Tanımsız tür\" sorunu giderildi; sahipsiz sekmede \"Türü tanımla\" var."
+                },
+                {
+                  "t": "d",
+                  "s": " Hünerler & Beceriler buluta eşitlenir."
+                }
+              ],
+              "alt": []
+            }
+          ]
+        },
+        {
+          "baslik": "Eşyalar ve karakter kağıdı",
+          "ikon": "✦",
+          "kapsam": [],
+          "paragraflar": [],
+          "maddeler": [
+            {
+              "parcalar": [
+                {
+                  "t": "d",
+                  "s": "CODEX karakter dosyasında "
+                },
+                {
+                  "t": "k",
+                  "s": "Karakter kağıdı"
+                },
+                {
+                  "t": "d",
+                  "s": ": NEXUS'taki kağıdın"
+                },
+                {
+                  "t": "d",
+                  "s": " kendisi, masa kopyasıyla iki yönlü eşlenir."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "d",
+                  "s": "Eşya ve mağaza pencereleri oyun tezgâhına geçti."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "d",
+                  "s": "Silah, zırh ve kalkan yuvasındaki büyülü eşya, artifakt ve yadigâr"
+                },
+                {
+                  "t": "d",
+                  "s": " TILSIMLAR'da bağlı satır olur, hafifçe parlar; bağ anahtarıyla"
+                },
+                {
+                  "t": "d",
+                  "s": " kazanımlar ve yetenekler etkinleşir. CODEX'teki mental istikrar yükü"
+                },
+                {
+                  "t": "d",
+                  "s": " ve eşya görseli masaya gelir."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "d",
+                  "s": "Çanta envanteri: her çantanın kendi küçük eşyaları, çantaya **bağlı"
+                },
+                {
+                  "t": "d",
+                  "s": " eşyalar** (hacimsiz, ağırlığı sayılır; sürükle-bırak), simya"
+                },
+                {
+                  "t": "d",
+                  "s": " ürünlerinde "
+                },
+                {
+                  "t": "k",
+                  "s": "Kullan"
+                },
+                {
+                  "t": "d",
+                  "s": " → boş şişe, kap ya da kutu."
+                }
+              ],
+              "alt": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "surum": "0.0.5-test",
+      "gorunen": "TEST-0.0.5",
+      "tarih": "25.09.2026",
+      "giris": [
+        [
+          {
+            "t": "d",
+            "s": "TEST-0.0.4'ten (30.08.2026) bu yana. 0.0.4 kurulumları bu sürüme "
+          },
+          {
+            "t": "k",
+            "s": "uygulama içinden"
+          },
+          {
+            "t": "d",
+            "s": " geçer; elle kurulum gerekmez."
+          }
+        ]
+      ],
+      "bolumler": [
+        {
+          "baslik": "Cloud tester · Local tester",
+          "ikon": "☁",
+          "kapsam": [],
+          "paragraflar": [],
+          "maddeler": [
+            {
+              "parcalar": [
+                {
+                  "t": "d",
+                  "s": "Test üyelikleri artık iki türdür. "
+                },
+                {
+                  "t": "k",
+                  "s": "Cloud tester"
+                },
+                {
+                  "t": "d",
+                  "s": " CODEX'i hem yerel"
+                },
+                {
+                  "t": "d",
+                  "s": " hem "
+                },
+                {
+                  "t": "k",
+                  "s": "çevrimiçi"
+                },
+                {
+                  "t": "d",
+                  "s": " (hesapla eşlenen, bulut deposunda duran) kullanır."
+                },
+                {
+                  "t": "d",
+                  "s": " "
+                },
+                {
+                  "t": "k",
+                  "s": "Local tester"
+                },
+                {
+                  "t": "d",
+                  "s": " CODEX'i yalnız bu bilgisayarda, yerel kayıtla"
+                },
+                {
+                  "t": "d",
+                  "s": " kullanır."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "d",
+                  "s": "Local tester kütüphanede "
+                },
+                {
+                  "t": "k",
+                  "s": "Çevrimiçi"
+                },
+                {
+                  "t": "d",
+                  "s": " alanına baktığında üyelik"
+                },
+                {
+                  "t": "d",
+                  "s": " türünün çevrimiçi erişimi kapsamadığını söyleyen bir mesaj görür;"
+                },
+                {
+                  "t": "d",
+                  "s": " yerel CODEX'lerine tek tıkla döner. \"Çevrimiçiye aktar\" kapalıdır,"
+                },
+                {
+                  "t": "d",
+                  "s": " eşitleme hiç başlamaz. Daha önce çevrimiçi olan CODEX'ler listeden"
+                },
+                {
+                  "t": "d",
+                  "s": " silinmez."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "k",
+                  "s": "Şeritte depolama belirteci"
+                },
+                {
+                  "t": "d",
+                  "s": " (sağ üstte, bağlantı rozetinin"
+                },
+                {
+                  "t": "d",
+                  "s": " yanında): çevrimiçi erişimi olan hesapta bulut deposunun ne kadarının"
+                },
+                {
+                  "t": "d",
+                  "s": " kullanıldığı (\"12,4 MB / 100 MB\") ve minik bir doluluk çubuğu (%90'da"
+                },
+                {
+                  "t": "d",
+                  "s": " kırmızı); yerel çalışırken açık CODEX'in bütün kampanyalarıyla bu"
+                },
+                {
+                  "t": "d",
+                  "s": " bilgisayarda kapladığı yer. Üzerine gelince ayrıntı (veri / görsel)."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "d",
+                  "s": "Hesap penceresinde Local tester için kota yerine üyelik türü yazar."
+                }
+              ],
+              "alt": []
+            }
+          ]
+        },
+        {
+          "baslik": "Oyun tezgâhı ve karakter dosyası",
+          "ikon": "⚔",
+          "kapsam": [],
+          "paragraflar": [],
+          "maddeler": [
+            {
+              "parcalar": [
+                {
+                  "t": "d",
+                  "s": "Yetenek ve varlık pencereleri "
+                },
+                {
+                  "t": "k",
+                  "s": "kart + yuvalar"
+                },
+                {
+                  "t": "d",
+                  "s": " tezgâhı; yeteneklerde"
+                },
+                {
+                  "t": "d",
+                  "s": " sağ tık menüsü ve sürükleyerek sıralama; nitelikler yalnız oyun"
+                },
+                {
+                  "t": "d",
+                  "s": " sisteminden."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "d",
+                  "s": "Kartlar ve Karakterler tek "
+                },
+                {
+                  "t": "k",
+                  "s": "karakter dosyası"
+                },
+                {
+                  "t": "d",
+                  "s": " standardında"
+                },
+                {
+                  "t": "d",
+                  "s": " (portre | profil | defter), canlı yazılır."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "k",
+                  "s": "Yetenek görseli"
+                },
+                {
+                  "t": "d",
+                  "s": " (256×256) CODEX'te yüklenir, NEXUS'ta görünür."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "k",
+                  "s": "Savaş Haritası"
+                },
+                {
+                  "t": "d",
+                  "s": " baştan: gömülü kanvas, cam çekmece."
+                }
+              ],
+              "alt": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "indir": {
     "win": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.3-test/SLVNZ-CODEX-TEST-0.1.3-kurulum.exe",
-      "ad": "SLVNZ-CODEX-TEST-0.1.3-kurulum.exe",
-      "boyut": 109686927,
-      "sha256": "cd2ce4950a493fcb25a9bc1643fa5e4d8653ad91d4fff7595afda523c3dbaa53",
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.4-test/SLVNZ-CODEX-TEST-0.1.4-kurulum.exe",
+      "ad": "SLVNZ-CODEX-TEST-0.1.4-kurulum.exe",
+      "boyut": 109702077,
+      "sha256": "2bffbf2242fe5c0088a72f467b168a174077d7fdb06e5bf22073095b70e033d5",
       "sayfa": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/latest"
     },
     "tasinabilir": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.3-test/SLVNZ-CODEX-TEST-0.1.3-tasinabilir.exe",
-      "ad": "SLVNZ-CODEX-TEST-0.1.3-tasinabilir.exe",
-      "boyut": 109687234,
-      "sha256": "ebdbcf1058f2d69c28d12e4691da70342b2e198f1837e9707ce26a65c3cd73ae"
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.4-test/SLVNZ-CODEX-TEST-0.1.4-tasinabilir.exe",
+      "ad": "SLVNZ-CODEX-TEST-0.1.4-tasinabilir.exe",
+      "boyut": 109700714,
+      "sha256": "22dc970b324a9234782f4e8dd0baf8e4341c18d208920349f7fa117f903e796e"
     },
     "nexus": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.3-test/SLVNZ-NEXUS-0.1.3-test-kurulum.exe",
-      "ad": "SLVNZ-NEXUS-0.1.3-test-kurulum.exe",
-      "boyut": 117567957,
-      "sha256": "3bd110a915954ea98901f6532634f646a59c119bc1c3fcad16aef47d653f8b1a",
-      "surum": "0.1.3-test",
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.4-test/SLVNZ-NEXUS-0.1.4-test-kurulum.exe",
+      "ad": "SLVNZ-NEXUS-0.1.4-test-kurulum.exe",
+      "boyut": 117604235,
+      "sha256": "efb3807dbf18164d548cd29a329c5ae24382c1b098920ae40a827fe16eb21f0e",
+      "surum": "0.1.4-test",
       "tasinabilir": {
-        "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.3-test/SLVNZ-NEXUS-0.1.3-test-tasinabilir.exe",
-        "ad": "SLVNZ-NEXUS-0.1.3-test-tasinabilir.exe",
-        "boyut": 117569976,
-        "sha256": "48aa5ecc1664cd9a0329b2f17ae961b5bb98bffcd9d95cca7edb8ad71ecf5825"
+        "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.4-test/SLVNZ-NEXUS-0.1.4-test-tasinabilir.exe",
+        "ad": "SLVNZ-NEXUS-0.1.4-test-tasinabilir.exe",
+        "boyut": 117606489,
+        "sha256": "0b71917a4991bd92454bcc86fc1a4c5ec4b1ff7ced2b5f710c866b29534584a8"
       }
     }
   },
-  "imza": "fKs2LhgEypcPFvtXITpiUamsX9TpGeh0dlQkiyYmlVFD2mFwXF77EsKq2bzVc9RDxAFewvBqcDOFMSFRrQzTBQ=="
+  "imza": "k6n1MRB8ihEvPR1HCIR3x6Mw82qB4+jaXjJ27rSjc/MsbNR9Fn7rXzQxkQohX3ZhvTkMrjbuzfb3r0MvVR+ZAA=="
 }
