@@ -1,11 +1,221 @@
 {
   "_aciklama": "SLVNZ CODEX sürüm bilgisi. scripts/surum-yayinla.mjs üretir — elle düzenlemeyin.",
   "urun": "SLVNZ CODEX",
-  "sonSurum": "0.1.4-test",
+  "sonSurum": "0.1.5-test",
   "enAzSurum": "0.0.3-test",
-  "yayin": "2026-10-17",
-  "notlar": "TEST-0.1.4: Üst çubukta sürüm ve yama notları; animasyonlar Windows ayarından bağımsız; DM ekranında yazarken kısayol düzeltmesi. NEXUS'ta Notlarım, üç ses katmanı (YouTube dahil), Spotify'da çalan, zorunlu güncelleme ve sürüm kapısı.",
+  "yayin": "2026-10-24",
+  "notlar": "TEST-0.1.5: NEXUS kağıdında basit ve hacimsel envanter, eşyalara küçük resim, aktif ve Diğer ekipman arasında sürükle-bırak, kompakt düzenleme pencereleri; CODEX'te kaynak kuralları ve yadigâr pasif düğüm etkileri.",
   "yamaNotlari": [
+    {
+      "surum": "0.1.5-test",
+      "gorunen": "TEST-0.1.5",
+      "tarih": "24.10.2026",
+      "giris": [
+        [
+          {
+            "t": "d",
+            "s": "TEST-0.1.4'ten (18.10.2026) bu yana. Üç uygulama yine birlikte TEST-0.1.5. Bu sürümün ağırlığı NEXUS karakter kağıdında: envanterin iki kipi, aktif ve yedek ekipman arasında sürükle-bırak, baştan düzenlenen eşya ve yetenek pencereleri. CODEX'te kaynakların büyüme kuralı ve yadigâr ağaçlarının pasif düğümleri artık masadaki karaktere doğrudan işler. "
+          },
+          {
+            "t": "k",
+            "s": "NEXUS güncellemesi zorunludur:"
+          },
+          {
+            "t": "d",
+            "s": " farklı sürümdeki NEXUS'la aynı masaya oturulmaz; GM de güncellemelidir."
+          }
+        ]
+      ],
+      "bolumler": [
+        {
+          "baslik": "CODEX · NEXUS — kaynak kuralları",
+          "ikon": "⚔",
+          "kapsam": [
+            "codex",
+            "nexus"
+          ],
+          "paragraflar": [],
+          "maddeler": [
+            {
+              "parcalar": [
+                {
+                  "t": "k",
+                  "s": "Her kaynağın kendi büyüme kuralı."
+                },
+                {
+                  "t": "d",
+                  "s": " Oyun Sistemi'nde her kaynak için"
+                },
+                {
+                  "t": "d",
+                  "s": " taban değer ve seviye başına artış girilebilir: kaynak hiçbir etken"
+                },
+                {
+                  "t": "d",
+                  "s": " yokken kaçtan başlar, her seviyede kaç artar. Varsayılanlar mevcut oyun"
+                },
+                {
+                  "t": "d",
+                  "s": " sisteminin değerleridir; değiştirmezsen hiçbir şey değişmez."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "k",
+                  "s": "Masada bu kural işler."
+                },
+                {
+                  "t": "d",
+                  "s": " NEXUS kağıdında kaynağın azami değeri ve"
+                },
+                {
+                  "t": "d",
+                  "s": " seviye arttırması CODEX'te yazdığın kurala göre hesaplanır."
+                }
+              ],
+              "alt": []
+            }
+          ]
+        },
+        {
+          "baslik": "CODEX · NEXUS — yadigâr ağaçları",
+          "ikon": "⚔",
+          "kapsam": [
+            "codex",
+            "nexus"
+          ],
+          "paragraflar": [],
+          "maddeler": [
+            {
+              "parcalar": [
+                {
+                  "t": "k",
+                  "s": "Pasif düğümün gerçek etkileri."
+                },
+                {
+                  "t": "d",
+                  "s": " Pasif düğümde artık eylem, ek eylem"
+                },
+                {
+                  "t": "d",
+                  "s": " ya da tepki seçilmez. Yerine bir koşul ve sürekli etkiler girilir:"
+                },
+                {
+                  "t": "d",
+                  "s": " nitelik ve beceri artışı, enerji, kaynağa ek azami değer ya da seviye,"
+                },
+                {
+                  "t": "d",
+                  "s": " dayanıklılık, kırılganlık, bağışıklık, his ve dil."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "k",
+                  "s": "Karaktere kendiliğinden işler."
+                },
+                {
+                  "t": "d",
+                  "s": " Yadigâr bağlı ve envanterdeyken"
+                },
+                {
+                  "t": "d",
+                  "s": " açılan pasif düğümün etkileri NEXUS'ta karaktere uygulanır; düğüm"
+                },
+                {
+                  "t": "d",
+                  "s": " kapanınca ya da yadigâr bırakılınca geri alınır. Kağıttaki düğüm kartı"
+                },
+                {
+                  "t": "d",
+                  "s": " etkileri ve koşulu gösterir."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "k",
+                  "s": "Düğüm boyutu."
+                },
+                {
+                  "t": "d",
+                  "s": " Ağaç editöründe her düğüm ×0.25 ile ×2 arasında,"
+                },
+                {
+                  "t": "d",
+                  "s": " çeyrek adımlarla büyütülüp küçültülebilir; varsayılan ×1. Boyut NEXUS'taki"
+                },
+                {
+                  "t": "d",
+                  "s": " ağaca da yansır."
+                }
+              ],
+              "alt": []
+            }
+          ]
+        },
+        {
+          "baslik": "CODEX",
+          "ikon": "⚔",
+          "kapsam": [
+            "codex"
+          ],
+          "paragraflar": [],
+          "maddeler": [
+            {
+              "parcalar": [
+                {
+                  "t": "k",
+                  "s": "Eşyalara küçük resim."
+                },
+                {
+                  "t": "d",
+                  "s": " Mağazalardaki ürün, malzeme, parşömen, set,"
+                },
+                {
+                  "t": "d",
+                  "s": " simya ve gastronomi düzenleyicilerinde eşyaya 256×256 küçük bir resim"
+                },
+                {
+                  "t": "d",
+                  "s": " verilebilir; yüklerken kaydırıp yakınlaştırarak kırpılır, büyük görsel"
+                },
+                {
+                  "t": "d",
+                  "s": " küçültülür. Bu resim NEXUS'a aktarılan eşyayla birlikte gider."
+                }
+              ],
+              "alt": []
+            },
+            {
+              "parcalar": [
+                {
+                  "t": "k",
+                  "s": "Oyun Sistemi sekmesi öne geldi."
+                },
+                {
+                  "t": "d",
+                  "s": " Kenar çubuğunda Oyun Sistemi artık"
+                },
+                {
+                  "t": "d",
+                  "s": " DM Ekranı'nın hemen ardından gelir."
+                }
+              ],
+              "alt": []
+            }
+          ]
+        }
+      ]
+    },
     {
       "surum": "0.1.4-test",
       "gorunen": "TEST-0.1.4",
@@ -596,262 +806,35 @@
           ]
         }
       ]
-    },
-    {
-      "surum": "0.0.5-test",
-      "gorunen": "TEST-0.0.5",
-      "tarih": "25.09.2026",
-      "giris": [
-        [
-          {
-            "t": "d",
-            "s": "TEST-0.0.4'ten (30.08.2026) bu yana. 0.0.4 kurulumları bu sürüme "
-          },
-          {
-            "t": "k",
-            "s": "uygulama içinden"
-          },
-          {
-            "t": "d",
-            "s": " geçer; elle kurulum gerekmez."
-          }
-        ]
-      ],
-      "bolumler": [
-        {
-          "baslik": "Cloud tester · Local tester",
-          "ikon": "☁",
-          "kapsam": [],
-          "paragraflar": [],
-          "maddeler": [
-            {
-              "parcalar": [
-                {
-                  "t": "d",
-                  "s": "Test üyelikleri artık iki türdür. "
-                },
-                {
-                  "t": "k",
-                  "s": "Cloud tester"
-                },
-                {
-                  "t": "d",
-                  "s": " CODEX'i hem yerel"
-                },
-                {
-                  "t": "d",
-                  "s": " hem "
-                },
-                {
-                  "t": "k",
-                  "s": "çevrimiçi"
-                },
-                {
-                  "t": "d",
-                  "s": " (hesapla eşlenen, bulut deposunda duran) kullanır."
-                },
-                {
-                  "t": "d",
-                  "s": " "
-                },
-                {
-                  "t": "k",
-                  "s": "Local tester"
-                },
-                {
-                  "t": "d",
-                  "s": " CODEX'i yalnız bu bilgisayarda, yerel kayıtla"
-                },
-                {
-                  "t": "d",
-                  "s": " kullanır."
-                }
-              ],
-              "alt": []
-            },
-            {
-              "parcalar": [
-                {
-                  "t": "d",
-                  "s": "Local tester kütüphanede "
-                },
-                {
-                  "t": "k",
-                  "s": "Çevrimiçi"
-                },
-                {
-                  "t": "d",
-                  "s": " alanına baktığında üyelik"
-                },
-                {
-                  "t": "d",
-                  "s": " türünün çevrimiçi erişimi kapsamadığını söyleyen bir mesaj görür;"
-                },
-                {
-                  "t": "d",
-                  "s": " yerel CODEX'lerine tek tıkla döner. \"Çevrimiçiye aktar\" kapalıdır,"
-                },
-                {
-                  "t": "d",
-                  "s": " eşitleme hiç başlamaz. Daha önce çevrimiçi olan CODEX'ler listeden"
-                },
-                {
-                  "t": "d",
-                  "s": " silinmez."
-                }
-              ],
-              "alt": []
-            },
-            {
-              "parcalar": [
-                {
-                  "t": "k",
-                  "s": "Şeritte depolama belirteci"
-                },
-                {
-                  "t": "d",
-                  "s": " (sağ üstte, bağlantı rozetinin"
-                },
-                {
-                  "t": "d",
-                  "s": " yanında): çevrimiçi erişimi olan hesapta bulut deposunun ne kadarının"
-                },
-                {
-                  "t": "d",
-                  "s": " kullanıldığı (\"12,4 MB / 100 MB\") ve minik bir doluluk çubuğu (%90'da"
-                },
-                {
-                  "t": "d",
-                  "s": " kırmızı); yerel çalışırken açık CODEX'in bütün kampanyalarıyla bu"
-                },
-                {
-                  "t": "d",
-                  "s": " bilgisayarda kapladığı yer. Üzerine gelince ayrıntı (veri / görsel)."
-                }
-              ],
-              "alt": []
-            },
-            {
-              "parcalar": [
-                {
-                  "t": "d",
-                  "s": "Hesap penceresinde Local tester için kota yerine üyelik türü yazar."
-                }
-              ],
-              "alt": []
-            }
-          ]
-        },
-        {
-          "baslik": "Oyun tezgâhı ve karakter dosyası",
-          "ikon": "⚔",
-          "kapsam": [],
-          "paragraflar": [],
-          "maddeler": [
-            {
-              "parcalar": [
-                {
-                  "t": "d",
-                  "s": "Yetenek ve varlık pencereleri "
-                },
-                {
-                  "t": "k",
-                  "s": "kart + yuvalar"
-                },
-                {
-                  "t": "d",
-                  "s": " tezgâhı; yeteneklerde"
-                },
-                {
-                  "t": "d",
-                  "s": " sağ tık menüsü ve sürükleyerek sıralama; nitelikler yalnız oyun"
-                },
-                {
-                  "t": "d",
-                  "s": " sisteminden."
-                }
-              ],
-              "alt": []
-            },
-            {
-              "parcalar": [
-                {
-                  "t": "d",
-                  "s": "Kartlar ve Karakterler tek "
-                },
-                {
-                  "t": "k",
-                  "s": "karakter dosyası"
-                },
-                {
-                  "t": "d",
-                  "s": " standardında"
-                },
-                {
-                  "t": "d",
-                  "s": " (portre | profil | defter), canlı yazılır."
-                }
-              ],
-              "alt": []
-            },
-            {
-              "parcalar": [
-                {
-                  "t": "k",
-                  "s": "Yetenek görseli"
-                },
-                {
-                  "t": "d",
-                  "s": " (256×256) CODEX'te yüklenir, NEXUS'ta görünür."
-                }
-              ],
-              "alt": []
-            },
-            {
-              "parcalar": [
-                {
-                  "t": "k",
-                  "s": "Savaş Haritası"
-                },
-                {
-                  "t": "d",
-                  "s": " baştan: gömülü kanvas, cam çekmece."
-                }
-              ],
-              "alt": []
-            }
-          ]
-        }
-      ]
     }
   ],
   "indir": {
     "win": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.4-test/SLVNZ-CODEX-TEST-0.1.4-kurulum.exe",
-      "ad": "SLVNZ-CODEX-TEST-0.1.4-kurulum.exe",
-      "boyut": 109702077,
-      "sha256": "2bffbf2242fe5c0088a72f467b168a174077d7fdb06e5bf22073095b70e033d5",
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.5-test/SLVNZ-CODEX-TEST-0.1.5-kurulum.exe",
+      "ad": "SLVNZ-CODEX-TEST-0.1.5-kurulum.exe",
+      "boyut": 109943421,
+      "sha256": "b64cb47014c9dfb11d9e8c589e8ac545aac2deb19d942820ea91d63751b2fd1a",
       "sayfa": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/latest"
     },
     "tasinabilir": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.4-test/SLVNZ-CODEX-TEST-0.1.4-tasinabilir.exe",
-      "ad": "SLVNZ-CODEX-TEST-0.1.4-tasinabilir.exe",
-      "boyut": 109700714,
-      "sha256": "22dc970b324a9234782f4e8dd0baf8e4341c18d208920349f7fa117f903e796e"
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.5-test/SLVNZ-CODEX-TEST-0.1.5-tasinabilir.exe",
+      "ad": "SLVNZ-CODEX-TEST-0.1.5-tasinabilir.exe",
+      "boyut": 109957231,
+      "sha256": "ed0e61236d4a490d75198fc694486e5db4b755df4b3a5f9fc5bc60de3ec03066"
     },
     "nexus": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.4-test/SLVNZ-NEXUS-0.1.4-test-kurulum.exe",
-      "ad": "SLVNZ-NEXUS-0.1.4-test-kurulum.exe",
-      "boyut": 117604235,
-      "sha256": "efb3807dbf18164d548cd29a329c5ae24382c1b098920ae40a827fe16eb21f0e",
-      "surum": "0.1.4-test",
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.5-test/SLVNZ-NEXUS-0.1.5-test-kurulum.exe",
+      "ad": "SLVNZ-NEXUS-0.1.5-test-kurulum.exe",
+      "boyut": 117617228,
+      "sha256": "6736cf9e9baee4f4f3fa9aae23aecbc306889d9088fc2806c27c0a41e6433a76",
+      "surum": "0.1.5-test",
       "tasinabilir": {
-        "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.4-test/SLVNZ-NEXUS-0.1.4-test-tasinabilir.exe",
-        "ad": "SLVNZ-NEXUS-0.1.4-test-tasinabilir.exe",
-        "boyut": 117606489,
-        "sha256": "0b71917a4991bd92454bcc86fc1a4c5ec4b1ff7ced2b5f710c866b29534584a8"
+        "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.5-test/SLVNZ-NEXUS-0.1.5-test-tasinabilir.exe",
+        "ad": "SLVNZ-NEXUS-0.1.5-test-tasinabilir.exe",
+        "boyut": 117607216,
+        "sha256": "aacc064c8d1ba0404a419b989385d8da937e529bd93f4aee0b72334c30a108cf"
       }
     }
   },
-  "imza": "k6n1MRB8ihEvPR1HCIR3x6Mw82qB4+jaXjJ27rSjc/MsbNR9Fn7rXzQxkQohX3ZhvTkMrjbuzfb3r0MvVR+ZAA=="
+  "imza": "YM/lzbYpjZAlYwsF2ykPFCwCJeYDZ8dLvB03pHLtUlSoZuGAebV4ZFpe7kJKcOy4/oPx3ZUGVCkzcU+U7IjWAA=="
 }

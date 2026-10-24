@@ -1,11 +1,33 @@
 {
   "_aciklama": "SLVNZ SCRIBE sürüm bilgisi. scripts/surum-yayinla.mjs üretir — elle düzenlemeyin.",
   "urun": "SLVNZ SCRIBE",
-  "sonSurum": "0.1.4-test",
+  "sonSurum": "0.1.5-test",
   "enAzSurum": null,
-  "yayin": "2026-10-17",
-  "notlar": "TEST-0.1.4: Üst çubukta sürüm ve yama notları; animasyonlar Windows ayarından bağımsız; yazarken kısayol düzeltmesi.",
+  "yayin": "2026-10-24",
+  "notlar": "TEST-0.1.5: Üç uygulama birlikte TEST-0.1.5; ayrıntılar yama notlarında.",
   "yamaNotlari": [
+    {
+      "surum": "0.1.5-test",
+      "gorunen": "TEST-0.1.5",
+      "tarih": "24.10.2026",
+      "giris": [
+        [
+          {
+            "t": "d",
+            "s": "TEST-0.1.4'ten (18.10.2026) bu yana. Üç uygulama yine birlikte TEST-0.1.5. Bu sürümün ağırlığı NEXUS karakter kağıdında: envanterin iki kipi, aktif ve yedek ekipman arasında sürükle-bırak, baştan düzenlenen eşya ve yetenek pencereleri. CODEX'te kaynakların büyüme kuralı ve yadigâr ağaçlarının pasif düğümleri artık masadaki karaktere doğrudan işler. "
+          },
+          {
+            "t": "k",
+            "s": "NEXUS güncellemesi zorunludur:"
+          },
+          {
+            "t": "d",
+            "s": " farklı sürümdeki NEXUS'la aynı masaya oturulmaz; GM de güncellemelidir."
+          }
+        ]
+      ],
+      "bolumler": []
+    },
     {
       "surum": "0.1.4-test",
       "gorunen": "TEST-0.1.4",
@@ -619,276 +641,22 @@
           ]
         }
       ]
-    },
-    {
-      "surum": "0.0.5-test",
-      "gorunen": "TEST-0.0.5",
-      "tarih": "25.09.2026",
-      "giris": [
-        [
-          {
-            "t": "d",
-            "s": "TEST-0.0.4'ten (30.08.2026) bu yana. 0.0.4 kurulumları bu sürüme "
-          },
-          {
-            "t": "k",
-            "s": "uygulama içinden"
-          },
-          {
-            "t": "d",
-            "s": " geçer; elle kurulum gerekmez."
-          }
-        ]
-      ],
-      "bolumler": [
-        {
-          "baslik": "Cloud tester · Local tester",
-          "ikon": "☁",
-          "kapsam": [],
-          "paragraflar": [],
-          "maddeler": [
-            {
-              "parcalar": [
-                {
-                  "t": "d",
-                  "s": "Test üyelikleri artık iki türdür. "
-                },
-                {
-                  "t": "k",
-                  "s": "Cloud tester"
-                },
-                {
-                  "t": "d",
-                  "s": " CODEX'i hem yerel"
-                },
-                {
-                  "t": "d",
-                  "s": " hem "
-                },
-                {
-                  "t": "k",
-                  "s": "çevrimiçi"
-                },
-                {
-                  "t": "d",
-                  "s": " (hesapla eşlenen, bulut deposunda duran) kullanır."
-                },
-                {
-                  "t": "d",
-                  "s": " "
-                },
-                {
-                  "t": "k",
-                  "s": "Local tester"
-                },
-                {
-                  "t": "d",
-                  "s": " CODEX'i yalnız bu bilgisayarda, yerel kayıtla"
-                },
-                {
-                  "t": "d",
-                  "s": " kullanır."
-                }
-              ],
-              "alt": []
-            },
-            {
-              "parcalar": [
-                {
-                  "t": "d",
-                  "s": "Local tester kütüphanede "
-                },
-                {
-                  "t": "k",
-                  "s": "Çevrimiçi"
-                },
-                {
-                  "t": "d",
-                  "s": " alanına baktığında üyelik"
-                },
-                {
-                  "t": "d",
-                  "s": " türünün çevrimiçi erişimi kapsamadığını söyleyen bir mesaj görür;"
-                },
-                {
-                  "t": "d",
-                  "s": " yerel CODEX'lerine tek tıkla döner. \"Çevrimiçiye aktar\" kapalıdır,"
-                },
-                {
-                  "t": "d",
-                  "s": " eşitleme hiç başlamaz. Daha önce çevrimiçi olan CODEX'ler listeden"
-                },
-                {
-                  "t": "d",
-                  "s": " silinmez."
-                }
-              ],
-              "alt": []
-            },
-            {
-              "parcalar": [
-                {
-                  "t": "k",
-                  "s": "Şeritte depolama belirteci"
-                },
-                {
-                  "t": "d",
-                  "s": " (sağ üstte, bağlantı rozetinin"
-                },
-                {
-                  "t": "d",
-                  "s": " yanında): çevrimiçi erişimi olan hesapta bulut deposunun ne kadarının"
-                },
-                {
-                  "t": "d",
-                  "s": " kullanıldığı (\"12,4 MB / 100 MB\") ve minik bir doluluk çubuğu (%90'da"
-                },
-                {
-                  "t": "d",
-                  "s": " kırmızı); yerel çalışırken açık CODEX'in bütün kampanyalarıyla bu"
-                },
-                {
-                  "t": "d",
-                  "s": " bilgisayarda kapladığı yer. Üzerine gelince ayrıntı (veri / görsel)."
-                }
-              ],
-              "alt": []
-            },
-            {
-              "parcalar": [
-                {
-                  "t": "d",
-                  "s": "Hesap penceresinde Local tester için kota yerine üyelik türü yazar."
-                }
-              ],
-              "alt": []
-            }
-          ]
-        },
-        {
-          "baslik": "Oyun tezgâhı ve karakter dosyası",
-          "ikon": "⚔",
-          "kapsam": [],
-          "paragraflar": [],
-          "maddeler": [
-            {
-              "parcalar": [
-                {
-                  "t": "d",
-                  "s": "Yetenek ve varlık pencereleri "
-                },
-                {
-                  "t": "k",
-                  "s": "kart + yuvalar"
-                },
-                {
-                  "t": "d",
-                  "s": " tezgâhı; yeteneklerde"
-                },
-                {
-                  "t": "d",
-                  "s": " sağ tık menüsü ve sürükleyerek sıralama; nitelikler yalnız oyun"
-                },
-                {
-                  "t": "d",
-                  "s": " sisteminden."
-                }
-              ],
-              "alt": []
-            },
-            {
-              "parcalar": [
-                {
-                  "t": "d",
-                  "s": "Kartlar ve Karakterler tek "
-                },
-                {
-                  "t": "k",
-                  "s": "karakter dosyası"
-                },
-                {
-                  "t": "d",
-                  "s": " standardında"
-                },
-                {
-                  "t": "d",
-                  "s": " (portre | profil | defter), canlı yazılır."
-                }
-              ],
-              "alt": []
-            },
-            {
-              "parcalar": [
-                {
-                  "t": "k",
-                  "s": "Yetenek görseli"
-                },
-                {
-                  "t": "d",
-                  "s": " (256×256) CODEX'te yüklenir, NEXUS'ta görünür."
-                }
-              ],
-              "alt": []
-            },
-            {
-              "parcalar": [
-                {
-                  "t": "k",
-                  "s": "Savaş Haritası"
-                },
-                {
-                  "t": "d",
-                  "s": " baştan: gömülü kanvas, cam çekmece."
-                }
-              ],
-              "alt": []
-            }
-          ]
-        },
-        {
-          "baslik": "SCRIBE ayrıldı",
-          "ikon": "✂",
-          "kapsam": [
-            "scribe"
-          ],
-          "paragraflar": [],
-          "maddeler": [
-            {
-              "parcalar": [
-                {
-                  "t": "d",
-                  "s": "Oyuncu Log (01.09) ayrı ücretsiz uygulama "
-                },
-                {
-                  "t": "k",
-                  "s": "SLVNZ SCRIBE"
-                },
-                {
-                  "t": "d",
-                  "s": " oldu."
-                }
-              ],
-              "alt": []
-            }
-          ]
-        }
-      ]
     }
   ],
   "indir": {
     "win": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.4-test/SLVNZ-SCRIBE-TEST-0.1.4-kurulum.exe",
-      "ad": "SLVNZ-SCRIBE-TEST-0.1.4-kurulum.exe",
-      "boyut": 95837509,
-      "sha256": "956d748d0c4f6f01ad5ea8c5bd5198ac56896287dd4af2c722abecbb59617a6a",
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.5-test/SLVNZ-SCRIBE-TEST-0.1.5-kurulum.exe",
+      "ad": "SLVNZ-SCRIBE-TEST-0.1.5-kurulum.exe",
+      "boyut": 96078655,
+      "sha256": "079563abd65cbc9b4e4a6512d1a15f279d2d66c9d7852ba76f45757e94cd6912",
       "sayfa": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/latest"
     },
     "tasinabilir": {
-      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.4-test/SLVNZ-SCRIBE-TEST-0.1.4-tasinabilir.exe",
-      "ad": "SLVNZ-SCRIBE-TEST-0.1.4-tasinabilir.exe",
-      "boyut": 95838239,
-      "sha256": "3b4febcecb58fa01fc401996a8e311028e57d29e2ce776578d1a934cf5355fda"
+      "url": "https://github.com/SLVNZ/slvnz-codex-surumler/releases/download/v0.1.5-test/SLVNZ-SCRIBE-TEST-0.1.5-tasinabilir.exe",
+      "ad": "SLVNZ-SCRIBE-TEST-0.1.5-tasinabilir.exe",
+      "boyut": 96079765,
+      "sha256": "c0ade8baa9241f8625436449bdab6e134fc55e84ea43cc5718ed93b8062cc397"
     }
   },
-  "imza": "hEqdM9uOIDoWIjDPV52l8hFGXQ/ccGdUnzsq933wpFqFLKdFXeFzLyIFR6rmjQN/S/kXLd4GzjbLPS0K1x5vAA=="
+  "imza": "KBv1+tirxycrGc+SEBeNTXdq9TWLPUxdzVZJdq5PfE1p1+TmbxG0iR1z6J5Mq6gtZyVUnXsnX6UfCE24KD0mDQ=="
 }
